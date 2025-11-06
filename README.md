@@ -13,34 +13,30 @@
 
 | Time | Description |
 |-------|-------------|
-| 9:00 to 10:00 | Introduction to Azure AI Foundry and Setup |
-| 10:00 to 10:30 | Lab for setup Azure AI Foundry Project |
+| 9:00 to 10:00 | Presentation of Azure AI Foundry |
+| 10:00 to 10:30 | Setup Azure AI Foundry Project and explanation of all features |
 | 10:30 to 10:40 | Break |
-| 10:40 to 11:30 | Azure AI Foundry Embedding and Vectorization  |
-| 11:30 to 12:00 | Lab  |
-|12:00 to 1:00 | Lunch |
-|1:00 to 1:45 | Azure AI Foundry with Text, Audio and Vision  |
-|1:45 to 2:30 | Lab |
-|2:30 to 2:45 | break |
-|2:45 to 3:15 | Introduction to Semantic Kernel |
-|3:15 to 3:45 | Lab |
-|3:45 to 4:30 | Monitoring and evaluations |
-|4:30 to 5:00 | Lab and Wrap up |
+| 10:40 to 11:30 | Postman on Azure AI Foundry and code samples |
+| 11:30 to 12:00 | Lab 1 Postman or Curl for Azure AI Foundry and code samples |
+| 12:00 to 1:00 | Lunch |
+| 1:00 to 1:45 | Azure AI Foundry Samples with Azure AI Inferencing  |
+| 1:45 to 3:00 | Lab 2 Azure AI Foundry Samples for Text, audio, vision, DeepSeek, Local and Github|
+| 3:00 to 3:15 | break |
+| 3:15 to 4:00 | Introduction to Semantic Kernel |
+| 4:00 to 5:00 | Lab 3 and wrap up |
 
 ## Day 2
 
 | Time | Description |
 |-------|-------------|
-| 9:00 to 10:00 | Agent Creation and concepts |
-| 10:00 to 10:30 | Lab |
-| 10:30 to 10:40 | Break |
-| 10:40 to 11:30 | Access Azure AI Agents from Semantic Kernel |
-| 11:30 to 12:00 | Lab  |
+| 9:00 to 10:00 | Real Life Scenario of Azure AI Foundry with a Zava company |
+| 10:00 to 11:00 | Lab Deploying all the resources and moving the data to Cosmos DB|
+| 11:00 to 11:10 | Break |
+| 11:10 to 12:00 | Deploying multiple agents programmatically |
 |12:00 to 1:00 | Lunch |
-|1:00 to 1:45 | Building MCP Servers |
-|1:45 to 2:30 | Lab |
+|1:00 to 2:00 | Lab Deploying Multiple agents programmatically |
+|2:00 to 2:30 | Build A2A Server to extend agent functionality|
 |2:30 to 2:45 | break |
-|2:45 to 3:15 | Building MCP Clients |
-|3:15 to 3:45 | Lab |
-|3:45 to 4:30 | Real life example of running a resort with multiple agents |
-|4:30 to 5:00 | Lab and Wrap up |
+|2:45 to 3:30 | Lab A2A Server |
+|3:30 to 4:00 | Observability - Monitoring |
+|4:00 to 5:00 | Lab Observaility & Wrap up |
