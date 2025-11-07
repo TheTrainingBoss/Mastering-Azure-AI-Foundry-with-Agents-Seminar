@@ -35,8 +35,8 @@
 | 11:10 to 12:00 | Deploying multiple agents programmatically |
 |12:00 to 1:00 | Lunch |
 |1:00 to 2:00 | Lab Deploying Multiple agents programmatically |
-|2:00 to 2:30 | Build A2A Server to extend agent functionality|
+|2:00 to 2:30 | Monitoring & Observaility|
 |2:30 to 2:45 | break |
-|2:45 to 3:30 | Lab A2A Server |
-|3:30 to 4:00 | Observability - Monitoring |
-|4:00 to 5:00 | Lab Observaility & Wrap up |
+|2:45 to 3:30 | Lab Monitor and Observability |
+|3:30 to 4:00 | Read Teaming |
+|4:00 to 5:00 | Lab Read Teaming & Wrap up |
