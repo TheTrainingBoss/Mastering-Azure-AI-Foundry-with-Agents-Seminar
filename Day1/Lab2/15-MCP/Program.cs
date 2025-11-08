@@ -107,7 +107,7 @@ namespace SK_Demos
         {
             var mcpClient = await McpClientFactory.CreateAsync(new StdioClientTransport(new()
             {
-                Name = "Github",
+                Name = "FileSystem",
                 Command = "npx",
                 Arguments = ["-y", "@modelcontextprotocol/server-filesystem","D:\\SemanticKernel_Fundamentals\\15-MCP\\MCPData"]
             }));

@@ -1,9 +1,12 @@
-﻿using Microsoft.SemanticKernel;
+﻿using System;
+using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 
 var deploymentName = "gpt-4.1";
-var endpoint = "replace";
-var apiKey = "replace";
+var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT")
+               ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT environment variable is not set.");
+var apiKey = Environment.GetEnvironmentVariable("AZURE_OPENAI_API_KEY")
+            ?? throw new InvalidOperationException("AZURE_OPENAI_API_KEY environment variable is not set.");
 
 var kernel = Kernel.CreateBuilder()
     .AddAzureOpenAIChatCompletion(deploymentName, endpoint, apiKey)

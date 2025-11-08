@@ -40,7 +40,7 @@ namespace SK_Demos
             var kernel = kernelBuilder.Services.BuildServiceProvider().GetRequiredService<Kernel>();
             var kernelPlugin = await kernel.ImportPluginFromOpenApiAsync(
                 pluginName: "TahubuEmployees",
-                uri: new Uri("http://localhost:5033/swagger/v1/swagger.json")
+                uri: new Uri("http://localhost:5107/swagger/v1/swagger.json")
             );
             builder.Services.AddSingleton(kernelPlugin);
 
